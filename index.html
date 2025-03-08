@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0%;
+        padding: 0;
+      }
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(16, 99, 177);
+        height: 60px;
+        border-radius: 40px;
+        z-index: 4;
+        top: 0;
+        position: sticky;
+      }
+      ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+      }
+      a {
+        text-decoration: none;
+        color: azure;
+      }
+      a:hover {
+        color: black;
+      }
+      button {
+        margin-top: 5px;
+        height: 30px;
+        width: 80px;
+        border-radius: 15px;
+      }
+      button:hover {
+        color: black;
+        background-color: red;
+        transition: 0.9s;
+        height: 40;
+        width: 90px;
+      }
+      span {
+        color: red;
+      }
+      img {
+        height: 800px;
+        width: 1500px;
+        position: relative;
+      }
+      .form1 {
+        top: 15%;
+        position: absolute;
+        left: 40%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <h1><span>S</span>hweta <span>K</span>umari</h1>
+      <ul>
+        <li><i class="fa-solid fa-house"></i><a href="">Home</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Info</a></li>
+      </ul>
+      <button>Sing up</button>
+      <button>Login</button>
+    </div>
+    <div class="image">
+      <img src="bed.jpg" alt="" />
+    </div>
+    <div class="form1">
+      <fieldset>
+        <legend>
+          <h1>Registration Form</h1>
+        </legend>
+
+        <form action="">
+          <label for="name">Enter your name</label>
+          <input
+            type="text"
+            placeholder="enter your name"
+            id="name"
+          /><br /><br />
+          <label for="class">Class</label>
+          <input type="text" placeholder="class" id="class" /><br /><br />
+          <label for="add">Address</label>
+          <input type="text" placeholder="address" id="add" /><br /><br />
+          <label for="num">Phone number</label>
+          <input type="tel" placeholder="phone number" id="" /><br /><br />
+          <label for="em">Email</label>
+          <input type="email" placeholder="email" id="em" /><br /><br />
+          <label for="gen">gender</label>
+          <label for="ma">Male</label>
+          <input type="radio" name="gender" id="ma" itemid="gen" />
+          <label for="fe">Female</label>
+          <input type="radio" name="gender" id="fe" itemid="gen" /><br /><br />
+          <label for="en">English</label>
+          <input type="checkbox" id="en" />
+          <label for="hi">Hindi</label>
+          <input type="checkbox" id="hi" />
+          <label for="pu">Punjabi</label>
+          <input type="checkbox" id="pu" />
+          <label for="ma">Maths</label>
+          <input type="checkbox" id="ma" />
+          <label for="sst">SST</label>
+          <input type="checkbox" id="sst" /><br /><br />
+          <label for="enter">Submittion date</label><br />
+          <input type="datetime-local" name="" id="" /><br /><br />
+          <label for="pass">Password</label>
+          <input type="password" id="pass" /><br /><br />
+          <label for="fi">Choose image</label>
+          <input type="file" id="fi" /><br /><br />
+          <label for="se">Search</label>
+          <input type="search" name="" id="se" /><br /><br />
+          <label for="text">Any queries write here</label><br />
+          <textarea name="text" id="text"></textarea><br /><br />
+          <a href="http://gngc.in">Visit website for more information</a
+          ><br /><br />
+
+          <input type="submit" name="" id="" />
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>
